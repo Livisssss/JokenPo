@@ -1,16 +1,18 @@
-# joken_po
+# JokenPo - Pedra, Papel e Tesoura
 
-A new Flutter project.
+Um simples jogo de Pedra, Papel e Tesoura (JokenPo) desenvolvido em Flutter. O jogador escolhe entre pedra, papel ou tesoura, e o app gera uma jogada aleatória para o "computador". O resultado é então exibido na tela com a respectiva imagem e mensagem de vitória, derrota ou empate.
 
-## Getting Started
+Este projeto foi desenvolvido como parte da aula de **Programação para Dispositivos Móveis** no dia **22/08/2024**.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- O jogador pode escolher entre **Pedra**, **Papel** e **Tesoura**.
+- O app faz uma jogada aleatória simulando o "computador".
+- O resultado (Vitória, Derrota ou Empate) é exibido na tela.
+- Imagens relacionadas às jogadas são exibidas conforme a escolha.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Regras do Jogo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Pedra** ganha de **Tesoura**, perde para **Papel** e empata com **Pedra**.
+- **Papel** ganha de **Pedra**, perde para **Tesoura** e empata com **Papel**.
+- **Tesoura** ganha de **Papel**, perde para **Pedra** e empata com **Tesoura**.
